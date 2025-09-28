@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.class,
 		org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration.class
 })
+@SpringBootApplication
 public class GestionAutosApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(GestionAutosApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(GestionAutosApplication.class, args);
+    }
 }
+
